@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Interactable
+  - Envelope
+  - Sign
+  - House
+  - Gem
   layers:
   - Default
   - TransparentFX
@@ -40,6 +45,12 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 2325355119
+    locked: 0
+  - name: Scenery
+    uniqueID: 2462810127
+    locked: 0
+  - name: Foliage
+    uniqueID: 604392477
     locked: 0
   - name: Default
     uniqueID: 0
