@@ -7,7 +7,7 @@ Designed for CS 4483 - Game Design
 ### Contributors
 * [James Bonvivere](https://github.com/James-WB)
 * [Colin McNeill](https://github.com/cmcnei24)
-* Nic Porrone
+* [Nic Porrone](https://github.com/nporrone)
 * [Riley Gabriele](https://github.com/r-gabrie)
 ---
 ### Planned Features Roadmap
