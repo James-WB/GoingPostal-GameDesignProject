@@ -2,6 +2,7 @@ GoingPostal
 =============
 ## A 2D Platformer Game
 Designed for CS 4483 - Game Design
+![alt text](https://github.com/James-WB/GoingPostal-GameDesignProject/blob/master/GoingPostal/Assets/WIPScreenshot.png "WIP Screenshot")
 
 ---
 ### Contributors
