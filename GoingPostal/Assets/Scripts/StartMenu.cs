@@ -11,4 +11,10 @@ public class StartMenu : MonoBehaviour
         SceneManager.LoadScene("Start");
     }
 
+    public void QuitGame()
+    {
+        Debug.Log("QUIT!");
+        Application.Quit();
+    }
+
 }
