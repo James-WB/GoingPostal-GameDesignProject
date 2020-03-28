@@ -9,6 +9,7 @@ TagManager:
   - Sign
   - House
   - Gem
+  - Descriptions
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - Interactable
   - 
   - 
   - 
