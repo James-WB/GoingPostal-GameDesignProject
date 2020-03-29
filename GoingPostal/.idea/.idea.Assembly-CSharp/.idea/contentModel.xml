@@ -11,6 +11,7 @@
           <e p="CharacterController2D.cs" t="Include" />
           <e p="DeathPit.cs" t="Include" />
           <e p="EnvelopeHUD.cs" t="Include" />
+          <e p="ExitLevel.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
           <e p="Mail.cs" t="Include" />
           <e p="Mailbox.cs" t="Include" />
@@ -20,6 +21,7 @@
           <e p="PointsHUD.cs" t="Include" />
           <e p="SignDisplay.cs" t="Include" />
           <e p="StartMenu.cs" t="Include" />
+          <e p="TutorialColliders.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">

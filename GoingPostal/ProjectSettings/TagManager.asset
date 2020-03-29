@@ -10,6 +10,15 @@ TagManager:
   - House
   - Gem
   - Descriptions
+  - Welcome
+  - Jump
+  - Death
+  - Ladder
+  - Crouch
+  - Enemy
+  - GemText
+  - Truck
+  - StartMenu
   layers:
   - Default
   - TransparentFX
