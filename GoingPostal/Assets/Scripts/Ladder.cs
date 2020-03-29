@@ -4,33 +4,36 @@ using System.Collections.Generic;
 
 
 public class Ladder : MonoBehaviour {
+    public float ladderSpeed;
+    public GameObject obj;
+    public float oldGrav;
 
-   void OnTriggerEnter2D (Collider2D other) {
-    // Stops the player from being affected by gravity while on ladder
-    if (other.CompareTag("Player")){
-       other.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0;
-     }
-   }
+    void OnTriggerStay2D (Collider2D other) {
+        obj = other.gameObject;
+        
+        other.gameObject.GetComponent<Rigidbody2D>().gravityScale = 0.5f;
 
-   void OnTriggerStay2D (Collider2D other) {
-    if(!(other.CompareTag("Player"))){
-      return;
+        if (Input.GetKey(KeyCode.W) && other.CompareTag("Player")){
+           other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0,ladderSpeed);
+        }
+        else if (Input.GetKey(KeyCode.S) && other.CompareTag("Player"))
+        {
+            other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -ladderSpeed);
+        }
+        else
+        {
+            other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        }
+
+
+
+
+
     }
 
-    if(Input.GetButtonDown("Vertical")){
-      other.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector3 (0, Input.GetAxisRaw("Vertical")*10, 0));
-    }
-    else{
-        other.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector3(0,0,0);
+    void OnTriggerExit2D(Collider2D other)
+    {
+        other.gameObject.GetComponent<Rigidbody2D>().gravityScale = 3;
     }
 
-
- }
-
-  void OnTriggerExit2D (Collider2D other) {
-    // Stops the player from being affected by gravity while on ladder
-     if (other.CompareTag("Player")){
-       other.gameObject.GetComponent<Rigidbody2D> ().gravityScale = 1;
-     }
-  }
 }
