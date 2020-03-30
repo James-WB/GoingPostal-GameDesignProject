@@ -62,6 +62,9 @@ TagManager:
   - name: Foliage
     uniqueID: 604392477
     locked: 0
+  - name: Homes
+    uniqueID: 2585481117
+    locked: 0
   - name: Underground
     uniqueID: 4109755283
     locked: 0

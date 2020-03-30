@@ -13,7 +13,7 @@ public class DeathPit : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider){
 
-        gameO.transform.position = startPos.transform.position;
+        collider.gameObject.transform.position = startPos.transform.position;
         vcam.SetActive(false);
         vcam.SetActive(true);
     }

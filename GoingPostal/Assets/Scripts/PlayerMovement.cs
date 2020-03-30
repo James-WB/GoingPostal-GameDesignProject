@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump")){
             jump = true;
             animator.SetBool("Jumping", true);
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runspeed;
         }
         if (Input.GetButtonDown("Vertical")){
             crouch = true;
