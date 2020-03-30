@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Nic\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Nic\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Assembly-CSharp.1354916486.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Nic\RiderProjects\GoingPostal-GameDesignProject(fresh)\GoingPostal" t="IncludeRecursive">
+    <e p="C:\Users\cmcne\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\cmcne\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Assembly-CSharp.-121988262.00" t="ExcludeRecursive" />
+    <e p="C:\Users\cmcne\OneDrive\Desktop\GAME\GoingPostal" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.sln" t="IncludeFlat" />
       <e p="Assets" t="Include">
