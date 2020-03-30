@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\james\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\james\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Assembly-CSharp.-926279254.00" t="ExcludeRecursive" />
-    <e p="C:\Users\james\Documents\GoingPostal\GoingPostal-GameDesignProject\GoingPostal" t="IncludeRecursive">
+    <e p="C:\Users\Nic\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Nic\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Assembly-CSharp.1354916486.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Nic\RiderProjects\GoingPostal-GameDesignProject(fresh)\GoingPostal" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.sln" t="IncludeFlat" />
       <e p="Assets" t="Include">
+        <e p="CyberPunk" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Done_BGScroller.cs" t="Include" />
+            <e p="Perspective2DSortMode.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="CharacterController2D.cs" t="Include" />
           <e p="DeathPit.cs" t="Include" />
           <e p="EnvelopeHUD.cs" t="Include" />
           <e p="ExitLevel.cs" t="Include" />
           <e p="Interactable.cs" t="Include" />
+          <e p="Ladder.cs" t="Include" />
           <e p="Mail.cs" t="Include" />
           <e p="Mailbox.cs" t="Include" />
+          <e p="Menu" t="Include">
+            <e p="LevelSelector.cs" t="Include" />
+          </e>
           <e p="PlayerInteraction.cs" t="Include" />
           <e p="PlayerMove.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
@@ -22,6 +32,9 @@
           <e p="SignDisplay.cs" t="Include" />
           <e p="StartMenu.cs" t="Include" />
           <e p="TutorialColliders.cs" t="Include" />
+        </e>
+        <e p="Simple city plain" t="Include">
+          <e p="Read_me.txt" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
